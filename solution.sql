@@ -89,26 +89,6 @@ AND last_name = 'williams';
 
 SHOW CREATE TABLE sakila.address;
 
--- CREATE TABLE IF NOT EXISTS `sakila`.`address` (
- -- `address_id` SMALLINT(5) UNSIGNED NOT NULL AUTO_INCREMENT,
-  -- `address` VARCHAR(50) NOT NULL,
-  -- `address2` VARCHAR(50) NULL DEFAULT NULL,
-  -- `district` VARCHAR(20) NOT NULL,
-  -- `city_id` SMALLINT(5) UNSIGNED NOT NULL,
- --  `postal_code` VARCHAR(10) NULL DEFAULT NULL,
-  -- `phone` VARCHAR(20) NOT NULL,
-  -- `location` GEOMETRY NOT NULL,
-  -- `last_update` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  -- PRIMARY KEY (`address_id`),
-  -- INDEX `idx_fk_city_id` (`city_id` ASC),
-  -- SPATIAL INDEX `idx_location` (`location` ASC),
-  -- CONSTRAINT `fk_address_city`
-   --  FOREIGN KEY (`city_id`)
-    -- REFERENCES `sakila`.`city` (`city_id`)
-    -- ON UPDATE CASCADE)
--- ENGINE = InnoDB
--- AUTO_INCREMENT = 606
--- DEFAULT CHARACTER SET = utf8
 
 -- Use JOIN to display the first and last names, as well as the address, of each staff member. 
 -- Use the tables staff and address:
